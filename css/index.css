@@ -1,372 +1,396 @@
-html{scroll-behavior: smooth;}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport"
+	content="width=device-width,
+	initial-scale=1.0">
+	<link rel="shortcut icon"
+  href="images/app.jpg"
+  type="image/x-icon">
+
+  <link href="css/index.css" rel="stylesheet">
+	<link href="font/css/all.css" rel="stylesheet">
+  <script src="js/index.js"></script>
+<title>ELOTECH TECHNOLOGIES
+</title>
+
+</style>
+
+</head>
+<body>
+	<div class="head">
+<span class="soft"><a href="#">ELOTECH</a></span>
 
 
-	body{background-color:black;
-	max-width: 1000px;
-	height: fit-content;
-	color:teal;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+<a href="#"> about </a> <a href="#"> services</a>
+<span class="menu"><input type="text" id="txt" placeholder="find products, advice, tech news"><button type="submit">ok</button>
+</span>
+<a href="#">projects</a> 
+<a href="#">contact us</a> 
 
-.head{text-alig: center;
-margin-top:-10px;
-position: fixed;
-border-right: 16px solid grey;
-margin-left: -12px;
-background-color:rgb(3, 3, 3);
-color: gainsboro;
-font-family: cursive;
-font-size:20px;
-paddin: 13px;
-font-weight: 900;
-width: 1020px;
-}
-.head a{text-decoration: none;
-color: white;
-margin: 12px;
-border: px solid rgb(22, 19, 19);
-border-bottom: 0px;}
-.head a:hover{text-decoration: none;
-	color: rgb(45, 193, 252);
-width: 132px;}
-
-.soft{background-color:rgb(187, 7, 7);
-color:white;
-width: 142px;
-float:left;}
-.soft a{border:0px;}
-
-.soft:a hover{border:0px;
-	color:white;
+<a href="#">Register</a> 
+<a href="#">log in</a>
+</div>
 	
-width:142px;}
+</div>
 
 
-.end{background-color: rgb(3, 3, 3);
-color: silver;
-font-family: monospace;
-bottom:0;
-margin-left:-12px;
-width:1020px;
-font-size: 32px;
-bottom: 0;
-position: relative;
-}
+<section>
 
 
 
-#user{
-color:white;
-transition:0.12s;
-display:none;
-z-index:1;
-margin-top: 22px;;
-overflow:hidden;
-transition:0.2s;
-width: 212px;
-margin-left:9px;
-border: 1px solid gray;
-border-top:0px;
-}
-
-li{
-display:inline;
-}
-#user a{text-decoration:none;
-color:white; 
-border: 2px solid rgba(248, 241, 245, 0.363);
-background-color:teal;
-font-size:22px;
-font-family: monospace;
-font-weight: 800;}
-
-#bt{margin: 13px;
-background-color: teal;}
-
-section{background: brown;
-height: 123px;
-margin-left:-12px;
-background-image:url("images.jpg");
-background-repeat: no-repet;
-background-size: auto;
-border: 1px solid red;
-width:1020px;}
-
-.topic{text-align: center;
-display: flex;
-border-radius: 32px;
-font-weight: 900;
-font-family: monospae;
-text-align:inherit;
-margin:3px;
-width: 1020;}
-.tcontent{font-weight: 65px;
-	font-style:normal;
-	width: 1020px;
-	border-radius: 23px;
-	margin-left: -9px;;
-	color:rgb(180, 189, 199);
-	font-variant-caps: small-caps;
-font-size: x-large;
-background-color: rgb(252, 243, 243);
-
-}
-.topic2{text-align: center;
-display: flex;
-font-weight: 900;
-font-family: monospae;
-text-align:inherit;
-margin: 3px;
-border-radius: 2px;}
-
-.f-content{width: 223px;
-
-margin: 3px;
-width: 1200px;}
-.top{text-align:center;
-font-size: xx-large;
-font-weight: 900;}
-
-.topic img{width:323px;
-align:center;
-height: 134px;
-border-top-right-radius: 9px;
-border-top-left-radius:9px;
-}
-.t-content{width: 23px;
-border: 1px outset rgb(212, 209, 209);
-margin:4px ;
-width: 323px;
-border-radius: 10px;
-}
-h2{text-align: center;}
-
-.js{background: rgba(136, 134, 139, 0.863);
-height: 28px;
-color: white;
-margin: 21PX;
-border-radius: 5PX;}
-
-.js2{background-color: sienna;
-width:100%;
-height: 100%;}
 
 
-.python{background: rgba(136, 134, 139, 0.863);
-	height: 28px;PX;
-border-radius: 8PX;
-font-weight: 600;
-border-radius: 5PX;
-color: white;
-top:23px;
-margin: 21;
-font-weight: 600;
-}
-.pt{background-color: forestgreen;
-width:70%;
-height:100%;}
+
+</section>
 
 
-.php{background: rgba(136, 134, 139, 0.863);
-	height: 28px;
-color: white;
-margin: 21PX;
-border-radius: 5PX;
-font-weight: 600;
-}
+<div class="top"></div>
 
-.php2{background-color: darkturquoise;
-height: 100%;
-width:100%;}
-.ui{background:rgba(136, 134, 139, 0.863); rgb(98, 5, 141);
-	height: 28px;
-color: white;
-margin: 21PX;
-border-radius: 5PX;
-font-weight: 600;
-}
-.ui2{background-color: darkred;
-width: 30%;
-height: 100%;
-}
-b{margin: 12px;
-margin-top:-8px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 600;}
+<div class="tcontent">
 
+	Elotech is a company which intends to be in front of the client's needs, deeply understanding clients' business and delivering IT solutions from the initial phase of scoping the requirements,
+	 up to the final delivery, maintenance and continuous upgrade
 
-.percent{float: right;}
-
-h{font-size: 60px;
-color:rgb(3, 151, 107);
-}
-  
-  body {
-	background-color: #f1f1f1;
 	
-	font-family: Arial;
-  }
+</div>
+
+
+
+
+
+<div class="topic">
+	
+	
+
+
+	<div class="t-content">
+
+	            
+		<img src="images/about-mission.jpg"> 
+		  
+		<h2>Who We Are?	</h2>
   
-  /* Center website */
-  .main {
-	max-width: 1000px;
-	margin: auto;
-  }
+		Elotech is an information technology consultancy and 
+		solutions provider that develops systems and software and integrates them into our clients' business processes. As a software development company based in Nigeria, We also provide 
+		IT support, training, project management,
+		 and strategic business solutions.
+
+	
+		</div>
+	
+
+
+		<div class="t-content">		
+			<img src="images/about-vision.jpg">   
+	
+			<h2>	What We Do? </h2>
+
+			We align our people, technology, services and strategic
+			 alliances to your business goals. And, we partner with you to provide complete 
+			customer solutions that span the data center and accelerate your success.
+		
+		</div>
+
+					
+
+				<div class="t-content">
+				<img src="images/download-2.jpg">   
+	
+                       <h2>IT CONSULTANCY</h2>
+					   Our team is available to provide strategic guidance on a variety of topics, including cloud strateg, IT budget planning,
+					    risk management, disaster recovery planning, business continuity planning, 
+				</div>				
+				
+				
+</div>
+					<hr>	
+<div class="top">OUR SERVICES</div>
+
+<div class="tcontent">
+
+
+Our team uses a personal and innovative approach by evolving ideas and turning them into tangible visual results, which help us deliver top-notch services for Software Development, Software Testing, Blockchain, Big Data, Devops, AI & Cloud.
+	
+</div>
+
+
+
+
+
+<div class="topic">
+	
+	
+
+
+	<div class="t-content">
+
+	            
+		<img src="images/web.jpg"> 
+		  
+		<h2>Web Design & Development	</h2>
+
+		
+From web applications, to ecommerce website or SaaS platforms, we do it all. 
+Web design and development is our forte and we proudly say we are the best.
+	
+		</div>
+	
+
+
+		<div class="t-content">		
+			<img src="images/app.jpg">   
+	
+			<h2>	MOBILE APP DEVELOPMENT </h2>
+
+			We build apps that people love. We make it easy to put your business at your customers’ 
+			fingertips with our intuitive and top-ranked mobile app solutions.
+		</div>
+
+			<div class="t-content">
+				<img src="images/softw.png">   
+	
+                       <h2>CUSTOM SOFTWARE DEVELOPMENT</h2>
+					   Not every business is the same, neither their requirements. Our proficient development 
+					   team will devise the best on-demand custom solutions for your business.
+				</div>				
+
+
+</div>
+				
+<hr>
+<div class="top">OUR SKILLS</div>   
+<div class="tcontent">
+
+
+A subtle yet beautiful design offers an ingenious experience. Designing impeccable user experiences for 
+different devices and screen type and size is our forte.
+
+
+
+
+
+<div class="php"><div class="php2"><b>PHP AND FRAMEWORKS</b> <span class="percent">100%</span>
+</div></div>
+
+
+<div class="js"><div class="js2"><b>JAVASCRIPT AND FRAMEWORKS</b> <span class="percent">100%</span>
+</div></div>
+
+
+<div class="python">
+	<div class="pt"><b>C++ & PYTHON</b><span class="percent">70%</span>
+</div> </div></div>
+
+
+
+</body>
+
+
+
+<hr>
+<center>
+	
+	
+	<div class="topic2">
+	
+	
+
+
+		<div class="f-content">
+	
+					
+		 
+			  
+			<h>64</h><br>
+	<c>clients</c>
+	
+		
+			</div>
+		
+	
+	
+			<div class="f-content">		
+				   
+		
+				<h>	148</h><br>
+	
+				<c>Projects</c>
+			</div>
+	
+				<div class="f-content">
+					
+		
+						   <h>978</h><br>
+						   <c>Hours Of Support</c>
+					</div>		
+	
+					<div class="f-content">
+				   
+		
+						   <h>12</h><br>
+						   <c>Years Of Experience</c>
+					</div>				
+					
+					
+	</div>
+
+<hr>
+
+	<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('APPS')"> APPS</button>
+  <button class="btn" onclick="filterSelection('U.I')"> U.I</button>
+  <button class="btn" onclick="filterSelection('SOFTWARE')">SOFTWARE </button>
+  <button class="btn" onclick="filterSelection('end')">CLOSE ALL </button>
+ 
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column APPS">
+    <div class="content">
+      <img src="images/calculator.jpg" alt="Mountains" style="width:100%">
+      <h4>online calculator</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div> 
+  </div>
+
+
+  <div class="column APPS">
+    <div class="content">
+      <img src="images/radio.jpg" alt="Lights" style="width:100%">
+      <h4>internet radio</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+
+  <div class="column APPS">
+    <div class="content">
+      <img src="images/quadratic.jpg" alt="Nature" style="width:100%">
+      <h4>quadratic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="column U.I">
+    <div class="content">
+      <img src="images/NIGERIA.jpg" alt="Car" style="width:100%">
+      <h4>News web</h4>
+      <p>U.I</p>
+    </div>
+  </div>
+  <div class="column U.I">
+    <div class="content">
+      <img src="images/FRUIT.jpg" alt="Car" style="width:100%">
+      <h4>Fruit market app</h4>
+      <p>U.I</p>
+    </div>
+  </div>
+  <div class="column U.I">
+    <div class="content">
+      <img src="images/SCHOOL.jpg" alt="Car" style="width:100%">
+      <h4>School management system</h4>
+      <p>U.I..</p>
+    </div>
+  </div>
+
+  <div class="column SOFTWARE">
+    <div class="content">
+      <img src="images/images.jpg" alt="People" style="width:100%">
+      <h4>   </h4>
+      <p>SOFTWARE</p>
+    </div>
+  </div>
+  <div class="column SOFTWARE">
+    <div class="content">
+      <img src="images/download-2.jpg" alt="People" style="width:100%">
+      <h4>   </h4>
+      <p>SOFTWARE</p>
+    </div>
+  </div>
+  <div class="column SOFTWARE">
+    <div class="content">
+      <img src="images/app.jpg" alt="People" style="width:100%">
+      <h4>   </h4>
+      <p>SOFTWARE</p>
+    </div>
+  </div>
+
+  <div class="column CLOSE ALL">
+    <div class="content">
+      <im src="images/download-2.jpg" alt="People" style="width:100%">
+      <h4>   </h4>
+      <p>SOFTWARE</p>
+    </div>
+  </div>
+<!-- END GRID -->
+
+<hr>
+</div>
+<div class="top"></div>
+
+<div class="tcontent">
+
+
+
+
+
+	
+</div>
+
+
+<div class="topic">
+
+<div class="t-content"> 
   
-  h1 {
-	font-size: 50px;
-	word-break: break-all;
-  }
-  
-  .row {display: flex;
-	margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-	padding: 8px;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
-	float: left;
-	width: 33.33%;
-	display: none; /* Hide columns by default */
-  }
-  
-  /* Clear floats after rows */
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  
-  /* Content */
-  .content {
-	background-color: white;
-	padding: 10px;
-  }
-  
-  /* The "show" class is added to the filtered elements */
-  .show {
-	display: block;
-  }
-  
-  /* Style the buttons */
-  .btn {
-	border: none;
-	outline: none;
-	padding: 12px 16px;
-	background-color: white;
-	cursor: pointer;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .btn:hover {
-	background-color: #ddd;
-  }
-  
-  /* Add a dark background color to the active button */
-  .btn.active {
-	background-color: #666;
-	 color: white;
-  }
-  
+<h2><i class="fa fa-envelope"></i> <br>
+
+Email	</h2>
+
+Elotech@gmail.com
+
+</div>
 
 
-  * {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+<div class="t-content">
+<h2><i class="fa fa-phone"></i> <br>
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+phone</h2>
+08109166446
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+	            
+	
+		</div>
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+		
+<div class="t-content">
+<h2><i class="fa fa-home"></i> <br>
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+Address</h2>
+Ogwashi-uku, Delta State, Nigeria.
+	
+		</div>
+</div>
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+<div class="end">
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 45px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 0%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+© Copyright Elotech Technologies Company Ng. Ltd..<br> All Rights Reserved
+<br> theme Designed by <a href="#">Elotech Technologies</a>
+			</div>
+	
+</html>
 
-.active, .dot:hover {
-  background-color: #717171;
-}
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-img{width: 100%;
-height:223px;}
+
+
